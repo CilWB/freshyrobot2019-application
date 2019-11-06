@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038705089383",
+    "firebase_url": "https://freshyrobot2019.firebaseio.com",
+    "project_id": "freshyrobot2019",
+    "storage_bucket": "freshyrobot2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038705089383:android:d77560ce6923647dc5adc2",
+        "android_client_info": {
+          "package_name": "com.example.freshyrobot2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038705089383-kpludcgcr5h3mvnur7nhuo0r63u83tm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASp59dpLTD9eurD6Vm7VNRR6nLeRnuyQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038705089383-kpludcgcr5h3mvnur7nhuo0r63u83tm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
