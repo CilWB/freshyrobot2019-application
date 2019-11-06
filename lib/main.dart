@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+// import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_database/firebase_database.dart';
+// import 'dart:async';
 
 void main() => runApp(MyApp());
 
@@ -6,6 +9,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -25,6 +29,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  // FirebaseDatabase firebaseDatabase = FirebaseDatabase.instance;
+
   int score_manual = 0;
   int num_man_retry = 0;
   int group=0;
@@ -44,6 +50,11 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
      num_man_retry += 1; 
     });
+  // FirebaseDatabase.instance.reference().child('hi').set({
+  //   'title':'I am CIL'
+  // });
+
+  
   }
 
   int _selectedIndex = 0;
@@ -57,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
       num_man_retry = 0;
     });
   }
+  
 void onGroupChange(String item){
   setState(() {
     _selectedGroup = item;   
@@ -87,6 +99,7 @@ void _showDialog(){
     }
   );
 }
+
 //////////////////////////////////////////////
 
   @override
