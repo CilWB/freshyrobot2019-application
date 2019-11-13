@@ -1,7 +1,9 @@
 # freshyrobot2019
 
 A new Flutter project.
+
 fast develop + less test = risky thing 
+
 project status : waiting for next UPGRADE 
 
 ## Getting Started
